@@ -1,0 +1,18 @@
+# R32 / R33 Fusion model variants
+
+Digital designs; physical fit, dispensing and safety remain unvalidated. Each original file is split into two parts.
+
+- `R32_55_FROZEN_BASELINE.f3d`: 53941446 bytes; SHA-256 `E572AF88761A399FBBB7E23CCAD728AA65DB4E426A8DD33AA8DC1073F1377CF4`
+- `R32_60_FROZEN_BASELINE.f3d`: 53891805 bytes; SHA-256 `FDAAD472AC9E1F980A0AE06645B168EB1795402F6A6F3855DC413F8676C00C05`
+- `SMC_12H_R33_55_SPRING_JOINTS_FINAL.f3d`: 53712145 bytes; SHA-256 `E3AB58C33FFBD11F5E1AF7397AF8A4EC72CC85909A65AA55737F1374C9783A19`
+- `SMC_12H_R33_60_SPRING_CHAIN_JOINTS_FINAL.f3d`: 54128685 bytes; SHA-256 `B274F38FE82D74840DF983E58685CA9AC8B17C4BC4D7AFCB139725789468F683`
+- `SMC_12H_R33_60_SPRING_JOINTS_FINAL.f3d`: 53866125 bytes; SHA-256 `377715B984AAA49625741C82D340D1A86CFA6F513D3F9932C21A822DEA67F859`
+
+Download both parts to the same folder. In Windows PowerShell replace NAME.f3d with the desired filename:
+
+```powershell
+cmd /c "copy /b NAME.f3d.part01+NAME.f3d.part02 NAME.f3d"
+Get-FileHash -Algorithm SHA256 NAME.f3d
+```
+
+Compare the hash before opening in Fusion. The 55 mL spring-and-chain model is in the adjacent R33-55 directory.
