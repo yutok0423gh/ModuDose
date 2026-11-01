@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="2400" height="1600" viewBox="0 0 2400 1600">
+<rect width="2400" height="1600" fill="white"/>
+<text x="65" y="99" font-family="Microsoft YaHei,sans-serif" font-size="54" fill="#193b67">R32 本地演示与真实设备边界</text>
+<text x="65" y="155" font-family="Microsoft YaHei,sans-serif" font-size="32" fill="#5d6c7b">已执行程序流程使用虚构身份、虚构任务和模拟I/O；数字标签不等于实体打印。</text>
+<rect x="80" y="220" width="1600" height="135" fill="#eff4f8" stroke="#193b67" stroke-width="4"/>
+<text x="110" y="273" font-family="Microsoft YaHei,sans-serif" font-size="36" fill="#193b67">1 身份与任务</text>
+<text x="460" y="287" font-family="Microsoft YaHei,sans-serif" font-size="32" fill="#5d6c7b">签名工牌QR + PIN；审核任务 / 时点 / 冻结版本</text>
+<path d="M880,355 L880,392" stroke="#2a7155" stroke-width="6" fill="none"/>
+<polygon points="880,392 869.5608271813305,370.38926954353576 890.4391728186695,370.38926954353576" fill="#2a7155"/>
+<rect x="80" y="392" width="1600" height="135" fill="#eff4f8" stroke="#193b67" stroke-width="4"/>
+<text x="110" y="445" font-family="Microsoft YaHei,sans-serif" font-size="36" fill="#193b67">2 唯一绑定</text>
+<text x="460" y="459" font-family="Microsoft YaHei,sans-serif" font-size="32" fill="#5d6c7b">唯一活动尝试 / CupID；50×40 mm签名杯标</text>
+<path d="M880,527 L880,564" stroke="#2a7155" stroke-width="6" fill="none"/>
+<polygon points="880,564 869.5608271813305,542.3892695435358 890.4391728186695,542.3892695435358" fill="#2a7155"/>
+<rect x="80" y="564" width="1600" height="135" fill="#eff4f8" stroke="#193b67" stroke-width="4"/>
+<text x="110" y="617" font-family="Microsoft YaHei,sans-serif" font-size="36" fill="#193b67">3 贴标与复扫</text>
+<text x="460" y="631" font-family="Microsoft YaHei,sans-serif" font-size="32" fill="#5d6c7b">开始前错标可纠正；正确复扫绑定同一杯</text>
+<path d="M880,699 L880,736" stroke="#2a7155" stroke-width="6" fill="none"/>
+<polygon points="880,736 869.5608271813305,714.3892695435358 890.4391728186695,714.3892695435358" fill="#2a7155"/>
+<rect x="80" y="736" width="1600" height="135" fill="#eff4f8" stroke="#193b67" stroke-width="4"/>
+<text x="110" y="789" font-family="Microsoft YaHei,sans-serif" font-size="36" fill="#193b67">4 索引与计量</text>
+<text x="460" y="803" font-family="Microsoft YaHei,sans-serif" font-size="32" fill="#5d6c7b">A / B / C模拟循环；数量、位置、质量证据校核</text>
+<path d="M880,871 L880,908" stroke="#2a7155" stroke-width="6" fill="none"/>
+<polygon points="880,908 869.5608271813305,886.3892695435358 890.4391728186695,886.3892695435358" fill="#2a7155"/>
+<rect x="80" y="908" width="1600" height="135" fill="#eff4f8" stroke="#193b67" stroke-width="4"/>
+<text x="110" y="961" font-family="Microsoft YaHei,sans-serif" font-size="36" fill="#193b67">5 五项人审</text>
+<text x="460" y="975" font-family="Microsoft YaHei,sans-serif" font-size="32" fill="#5d6c7b">具名复核全部必填项；未完成不能提交</text>
+<path d="M880,1043 L880,1080" stroke="#2a7155" stroke-width="6" fill="none"/>
+<polygon points="880,1080 869.5608271813305,1058.3892695435356 890.4391728186695,1058.3892695435356" fill="#2a7155"/>
+<rect x="80" y="1080" width="1600" height="135" fill="#eff4f8" stroke="#193b67" stroke-width="4"/>
+<text x="110" y="1133" font-family="Microsoft YaHei,sans-serif" font-size="36" fill="#193b67">6 受控领取</text>
+<text x="460" y="1147" font-family="Microsoft YaHei,sans-serif" font-size="32" fill="#5d6c7b">模拟解锁 + 两次不同序号移杯观察 → 领取记录</text>
+<path d="M880,1215 L880,1252" stroke="#2a7155" stroke-width="6" fill="none"/>
+<polygon points="880,1252 869.5608271813305,1230.3892695435356 890.4391728186695,1230.3892695435356" fill="#2a7155"/>
+<rect x="80" y="1252" width="1600" height="135" fill="#eff4f8" stroke="#193b67" stroke-width="4"/>
+<text x="110" y="1305" font-family="Microsoft YaHei,sans-serif" font-size="36" fill="#193b67">7 回待机</text>
+<text x="460" y="1319" font-family="Microsoft YaHei,sans-serif" font-size="32" fill="#5d6c7b">成功交易保留；新空杯建立新尝试</text>
+<rect x="1770" y="300" width="560" height="850" fill="#fff5ea" stroke="#c96f17" stroke-width="4"/>
+<text x="1800" y="381" font-family="Microsoft YaHei,sans-serif" font-size="36" fill="#c96f17">故障杯路径</text>
+<text x="1800" y="464" font-family="Microsoft YaHei,sans-serif" font-size="36" fill="#c96f17">异常后锁存</text>
+<text x="1800" y="547" font-family="Microsoft YaHei,sans-serif" font-size="36" fill="#c96f17">不能改成成功</text>
+<text x="1800" y="630" font-family="Microsoft YaHei,sans-serif" font-size="36" fill="#c96f17">先作整杯处置</text>
+<text x="1800" y="713" font-family="Microsoft YaHei,sans-serif" font-size="36" fill="#c96f17">随后单独RESET</text>
+<text x="1800" y="796" font-family="Microsoft YaHei,sans-serif" font-size="36" fill="#c96f17"></text>
+<text x="1800" y="879" font-family="Microsoft YaHei,sans-serif" font-size="36" fill="#c96f17">真实输出权限关闭</text>
+<text x="1800" y="962" font-family="Microsoft YaHei,sans-serif" font-size="36" fill="#c96f17">固件仅只读诊断</text>
+<text x="1800" y="1045" font-family="Microsoft YaHei,sans-serif" font-size="36" fill="#c96f17">运动后端待实现</text>
+<text x="80" y="1494" font-family="Microsoft YaHei,sans-serif" font-size="34" fill="#193b67">回归164项通过；HTTP与浏览器流程已执行。真实杯锁/称重/打印/电机尚未测试。</text>
+</svg>
