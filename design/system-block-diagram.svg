@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1120" viewBox="0 0 1600 1120"><rect width="100%" height="100%" fill="white"/>
+<text x="45" y="66.96000000000001" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="44" font-weight="700" fill="#172B4D">R32 系统方块图：本地演示与硬件设计</text>
+<text x="45" y="115.68" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="27" font-weight="400" fill="#5B6778">十二仓惰性样件；软件流程已实现，真实输入与运动输出仍待整合</text>
+<text x="45" y="175.2" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="30" font-weight="700" fill="#172B4D">本地演示软件</text>
+<rect x="45" y="200" width="390" height="200" rx="12" fill="#F4F7FB" stroke="#C9D4E2" stroke-width="2"/>
+<text x="65" y="241.52" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="28" font-weight="700" fill="#172B4D">操作与身份</text>
+<text x="65" y="281.84" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="26" font-weight="400" fill="#5B6778">虚构工牌 QR＋PIN</text>
+<text x="65" y="318.84" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="26" font-weight="400" fill="#5B6778">审核任务 / 55或60杯座</text>
+<text x="65" y="355.84" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="26" font-weight="400" fill="#5B6778">杯标生成、贴标和复扫</text>
+<rect x="495" y="200" width="580" height="200" rx="12" fill="#F4F7FB" stroke="#C9D4E2" stroke-width="2"/>
+<text x="515" y="241.52" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="28" font-weight="700" fill="#172B4D">R32Workflow / demo_app</text>
+<text x="515" y="281.84" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="26" font-weight="400" fill="#5B6778">A / B / C 模拟循环、独立模拟真值</text>
+<text x="515" y="318.84" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="26" font-weight="400" fill="#5B6778">五项具名人审、模拟受控领取</text>
+<text x="515" y="355.84" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="26" font-weight="400" fill="#5B6778">正常回待机；故障处置与RESET分开</text>
+<rect x="1135" y="200" width="420" height="200" rx="12" fill="#F4F7FB" stroke="#C9D4E2" stroke-width="2"/>
+<text x="1155" y="241.52" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="28" font-weight="700" fill="#172B4D">事务与审查记录</text>
+<text x="1155" y="281.84" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="26" font-weight="400" fill="#5B6778">唯一活动尝试 / CupID</text>
+<text x="1155" y="318.84" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="26" font-weight="400" fill="#5B6778">冻结任务和配置版本</text>
+<text x="1155" y="355.84" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="26" font-weight="400" fill="#5B6778">计量 / 领取 / 故障记录</text>
+<polyline points="435,290 495,290" fill="none" stroke="#2459A6" stroke-width="4"/>
+<polygon points="495.00,290.00 481.49,296.52 481.49,283.48" fill="#2459A6"/>
+<polyline points="1075,290 1135,290" fill="none" stroke="#2459A6" stroke-width="4"/>
+<polygon points="1135.00,290.00 1121.49,296.52 1121.49,283.48" fill="#2459A6"/>
+<polyline points="785,400 785,535" fill="none" stroke="#A8640B" stroke-width="4" stroke-dasharray="12 9"/>
+<polygon points="785.00,535.00 778.48,521.49 791.52,521.49" fill="#A8640B"/>
+<text x="815" y="471.84" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="26" font-weight="400" fill="#A8640B">实时I/O、运动和放行后端待实现</text>
+<text x="45" y="505.2" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="30" font-weight="700" fill="#172B4D">硬件与机构设计</text>
+<rect x="45" y="535" width="415" height="240" rx="12" fill="#F4F7FB" stroke="#C9D4E2" stroke-width="2"/>
+<text x="65" y="576.52" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="28" font-weight="700" fill="#172B4D">输入与反馈</text>
+<text x="65" y="616.84" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="26" font-weight="400" fill="#5B6778">仓身份、索引 / 机构位置</text>
+<text x="65" y="653.84" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="26" font-weight="400" fill="#5B6778">门盖 / 锁、杯在位与端位</text>
+<text x="65" y="690.84" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="26" font-weight="400" fill="#5B6778">单光框只观察遮挡事件</text>
+<text x="65" y="727.84" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="26" font-weight="400" fill="#5B6778">称重用于辅助合理性校核</text>
+<rect x="540" y="535" width="445" height="240" rx="12" fill="#F4F7FB" stroke="#C9D4E2" stroke-width="2"/>
+<text x="560" y="576.52" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="28" font-weight="700" fill="#172B4D">主控与电路</text>
+<text x="560" y="616.84" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="26" font-weight="400" fill="#5B6778">ESP32-S3＋输入输出扩展</text>
+<text x="560" y="653.84" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="26" font-weight="400" fill="#5B6778">最终电路 / PCB 已数字核对</text>
+<text x="560" y="690.84" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="26" font-weight="400" fill="#5B6778">固件为只读诊断，输出关闭</text>
+<text x="560" y="727.84" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="26" font-weight="400" fill="#5B6778">实际采集 / 校准仍待整合</text>
+<rect x="1070" y="535" width="485" height="240" rx="12" fill="#F4F7FB" stroke="#C9D4E2" stroke-width="2"/>
+<text x="1090" y="576.52" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="28" font-weight="700" fill="#172B4D">驱动与机构</text>
+<text x="1090" y="616.84" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="26" font-weight="400" fill="#5B6778">2台步进：转盘 / 共享计量</text>
+<text x="1090" y="653.84" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="26" font-weight="400" fill="#5B6778">3执行器：定位销 / 滑套 / 杯锁</text>
+<text x="1090" y="690.84" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="26" font-weight="400" fill="#5B6778">A转子 / B往复闸 / C单槽星轮</text>
+<text x="1090" y="727.84" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="26" font-weight="400" fill="#5B6778">电机固定；滑套独立升降</text>
+<polyline points="460,650 540,650" fill="none" stroke="#2459A6" stroke-width="4"/>
+<polygon points="540.00,650.00 526.49,656.52 526.49,643.48" fill="#2459A6"/>
+<polyline points="985,650 1070,650" fill="none" stroke="#2459A6" stroke-width="4"/>
+<polygon points="1070.00,650.00 1056.49,656.52 1056.49,643.48" fill="#2459A6"/>
+<rect x="45" y="835" width="700" height="190" rx="12" fill="#F5F6F8" stroke="#C9D4E2" stroke-width="2"/>
+<text x="65" y="876.52" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="28" font-weight="700" fill="#172B4D">供电与保护</text>
+<text x="65" y="916.84" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="26" font-weight="400" fill="#5B6778">24 V分支供电，候选主输入保护待完善</text>
+<text x="65" y="953.84" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="26" font-weight="400" fill="#5B6778">新增负载及启动 / 峰值 / 温升需核对</text>
+<text x="65" y="990.84" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="26" font-weight="400" fill="#5B6778">原10 A熔丝不能证明7.5 A单触点受保护</text>
+<rect x="825" y="835" width="730" height="190" rx="12" fill="#FFF6E7" stroke="#E8C790" stroke-width="2"/>
+<text x="845" y="876.52" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="28" font-weight="700" fill="#172B4D">停止与补料盖约束</text>
+<text x="845" y="916.84" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="26" font-weight="400" fill="#5B6778">原K1/K2保留；新增K3/K4独立隔离链</text>
+<text x="845" y="953.84" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="26" font-weight="400" fill="#5B6778">门 / 锁反馈及EDM约束运动许可</text>
+<text x="845" y="990.84" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="26" font-weight="400" fill="#5B6778">真实停止 / 隔离 / 释放资格仍待实测</text>
+<polyline points="745,930 825,930" fill="none" stroke="#5B6778" stroke-width="4"/>
+<polygon points="825.00,930.00 811.49,936.52 811.49,923.48" fill="#5B6778"/>
+<polyline points="1200,835 1200,775" fill="none" stroke="#A8640B" stroke-width="4"/>
+<polygon points="1200.00,775.00 1206.52,788.51 1193.48,788.51" fill="#A8640B"/>
+<text x="45" y="1080.16" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="24" font-weight="400" fill="#5B6778">蓝线为信息 / 动作请求；橙色为待接入或许可约束。此图说明功能，接线以R32原生电路源为准。</text>
+</svg>
